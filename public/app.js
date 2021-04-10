@@ -108,7 +108,6 @@ const setupMobileScroller = () => {
   const button = document.getElementById('scroller-button');
   button.classList.add('-ready');
   const toggleScroller = () => {
-    console.log('sdfsd')
     scroller.classList.toggle('-show');
   };
   button.addEventListener('click', toggleScroller, { passive: true });
