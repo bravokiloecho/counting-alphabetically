@@ -1,11 +1,11 @@
 {
-  "name": "bb-frontend-test",
+  "name": "static-builder",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "browser-sync public -w",
-    "css": "node build/postcss"
+    "dev": "node build/dev",
+    "css": "node build/postcss",
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
