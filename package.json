@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "node build/dev",
     "css": "node build/postcss",
+    "build": "node build/prod"
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
