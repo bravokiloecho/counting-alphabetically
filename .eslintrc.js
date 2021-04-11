@@ -16,5 +16,6 @@ module.exports = {
   rules: {
     'consistent-return': 'off',
     'import/extensions': 'off',
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
 };
